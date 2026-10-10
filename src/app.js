@@ -1,14 +1,11 @@
-import express from 'express'
+import express from 'express';
 
-const app= express();
+const app = express();
 
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-        res.status(200).send('Hello from Aquisitions!')
-
-})
+  res.status(200).send('Hello from Aquisitions!');
+});
 
 export default app;
-
-
